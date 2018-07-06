@@ -1,6 +1,6 @@
 # Vectorisation_Time_Savings
 
-In neural networks with large numbers of input variables and therefore large numbers of gradients (for which we apply gradient descent to minimise the loss function), using a for loop to iterate over each variable will decrease the efficiency of the network as the number of inputs and layers increases, which is an implicit objective of deep learning models.
+In neural networks with large numbers of input variables and therefore large numbers of gradients (for which we apply gradient descent to minimise the loss function), using a for loop to iterate over each variable-weight combination (i.e the activation function) will decrease the efficiency of the network as the number of inputs and layers increases, which is an implicit objective of deep learning models.
 
 This exercise is concerned with an alternative technique to basic for loops, namely "Vectorisation", which makes use of Numpy's dot product method, and alleviates the need for a resource-consuming for loop.
 
