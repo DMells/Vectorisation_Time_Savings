@@ -31,7 +31,9 @@ print("For loop version:" + str(1000*(toc-tic)) + "ms")
 Example result:
 
 Output: 250401.77777988912
+
 Vectorised version:1.2679100036621094ms
 
  Output: 250401.7777798921
+ 
 For loop version:443.05992126464844ms
